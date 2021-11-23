@@ -8,16 +8,19 @@
     tools:context=".MainActivity">
 
     <Button
-        android:enabled="false"
-        android:id="@+id/call"
-        android:text="呼叫"
+        android:id="@+id/btn_tuya"
+        android:text="涂鸦配网"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         />
 
-    <SurfaceView
-        android:id="@+id/surface"
-        android:layout_width="300px"
-        android:layout_height="300px" />
+    <Button
+        android:id="@+id/btn_no_tuya"
+        android:text="非涂鸦配网"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        />
 </LinearLayout>
