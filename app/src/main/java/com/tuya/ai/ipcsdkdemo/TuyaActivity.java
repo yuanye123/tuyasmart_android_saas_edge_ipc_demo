@@ -42,11 +42,11 @@ public class TuyaActivity extends AppCompatActivity {
 
     private FileAudioCapture fileAudioCapture;
 
-    public static final String pid = "g5xhwnzlmy64wlby";
+    public static final String pid = "";
 
-    public static final String uid = "tuya83c7ea992d0a8313";
+    public static final String uid = "";
 
-    public static final String key = "rnMToHjvU2m75VjByLU5MxM7gfbZRPHp";
+    public static final String key = "";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
